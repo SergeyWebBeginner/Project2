@@ -1,4 +1,6 @@
-'use strict';
+// 'use strict';
+
+  // create catalog
 
 const generateCatalog = () => {
   const catalog = `
@@ -28,4 +30,6 @@ const generateCatalog = () => {
   document.body.insertAdjacentHTML('afterbegin', catalog);
 };
 
-generateCatalog();
+
+      // output catalog
+export default generateCatalog;
